@@ -1,9 +1,10 @@
-
+import java.util.Scanner;
 
 class Question4 {
     public static void main(String[] args) {
-
-        /* Write your code here */
-
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Please input a decimal number: ");
+    double num1 = scan.nextDouble();
+    System.out.println("Answer = " + (int)(num1 + 0.5));
     }
 }
